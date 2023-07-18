@@ -1,17 +1,19 @@
 
-let num1=2
-let num2=31
-let multiply =num1*num2
+let num1=2;
+let num2=31;
+let multiply =num1*num2;
 
-let random=42
- Number.isInteger(42)
+let random=Math.floor(Math.random()* Number.MAX_SAFE_INTEGER) + 1;
 
- let mod=4
- let num3=24
- let num4=5
+
+let num3=24;
+let num4=5;
+let mod=num3 % num4;
  
 
- let max=20
+ let numset=[6,12,18,20];
+ let maximum= Math.max(...numset);
+ console.log(maximum);
 
 
 
